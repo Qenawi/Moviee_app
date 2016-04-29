@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2d2225"
+    tools:context="com.example.qenawi.moviee_app_last_stand.Fragments.favourit_detail">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#878b87">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.qenawi.lg_test.Detail_ActivityFragment"
+            tools:showIn="@layout/activity_detail_">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_weight="2"
+                    android:id="@+id/fav_deatail_imge_idx"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/fav_on" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="RELESE DATE : "
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fav_Date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="12/4/2015" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CATEGORY :"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fav_CATEGORY"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ACTION" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="VOTS :"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fav_VOTS"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="25K" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NAME :"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fav_NAME"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ATTACK ON TITAN" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="290dp"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:background="#e69e10">
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/fav_DESCRIPTIONxx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/overView"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="250dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#d9d326"></FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:layout_width="250dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#d9d326">
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Comments"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:id="@+id/favX_list2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="#c20b0b">
+
+                </ListView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <!-- -->
+</LinearLayout>

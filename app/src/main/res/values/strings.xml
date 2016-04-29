@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Moviee_app_last_stand</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="API_KEY">api_key=7d1dd3f8f443ecde27c323485a170bdc</string>
+    <!-- in Coming DAta -->
+    <string name="array_name">results</string>
+    <string name="ID">ID</string>
+    <string name="poster_path">poster_path"</string>
+    <string name="release_date">release_date</string>
+    <string name="title">title</string>
+    <string name="backdrop_path">backdrop_path</string>
+    <string name="popularity">popularity</string>
+    <string name="vote_count">vote_count</string>
+    <string name="vote_average">vote_average</string>
+    <string name="overview">overview</string>
+    <string name="top_rated">top_rated</string>
+    <string name="popular">popular</string>
+    <string name="BASE_URL">http://api.themoviedb.org/3/movie/</string>
+    <string name="BASE_image_URL">http://image.tmdb.org/t/p/w780/</string>
+    <!-- in Coming DAta -->
+    <string name="title_activity_set_s">setS</string>
+    <string name="DEFULT_LOCATION">9040</string>
+    <string name="KEY_ALPHA">howa_DA_El_KEY</string>
+    <string name="overView">
+      ana ahmed mohamed hussien ipahem
+        and iam going to pe isa the best
+        android coder ever
+        we ha prevail evry thing
+        we el7 eni waslt
+        lel7eta de
+        awe na maBsotta
+        awi ahepa
+    </string>
+    <string name="movie_data">XCrOnBGrT</string>
+    <string name="Dp_data">CASFAFGAWER</string>
+    <string name="is_tablet">XCVFGRTYH</string>
+    <string name="fav_data">U_R_Great_no_F_way</string>
+<!-- Data Base -->
+    <string name="DATA_BASE_NAME">favourt.dp</string>
+    <string name="TABLE_NAME">favourt_moves</string>
+    <string name="COULM_ID">ID</string>
+    <!-- menue -->
+    <string name="Favourit">Favourit</string>
+</resources>
